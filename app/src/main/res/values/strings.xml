@@ -1,3 +1,9 @@
 <resources>
+    //Activity Main
     <string name="app_name">Proyecto App</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_enter">How do you want enter:</string>
+    <string name="txt_login">Login in</string>
+    <string name="txt_check">Check in</string>
+    <string name="txt_details">Design in Android Studio</string>
 </resources>
