@@ -5,30 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@drawable/fondo">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="15dp"
-        android:gravity="center_horizontal">
-
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="vertical">
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_tittle1"
                 android:textSize="40sp"
-                android:gravity="center"
+                android:layout_marginStart="70dp"
                 android:textColor="@color/orange_900"/>
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_tittle2"
                 android:textSize="40sp"
@@ -37,17 +35,16 @@
                 android:textColor="@color/orange_900"
                 android:layout_marginStart="15dp"/>
         </LinearLayout>
-
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="match_parent"
             android:src="@drawable/imginicio"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="5"
         android:orientation="vertical">
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,8 +59,8 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_enter"
             android:textSize="20sp"
-            android:layout_marginTop="50dp"
-            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
             android:textColor="@color/black"/>
         <Button
             android:id="@+id/btnLogin"
@@ -73,37 +70,36 @@
             android:text="@string/txt_login"
             android:textColor="@color/white"
             android:textSize="15sp"
-            android:layout_marginHorizontal="40dp"
+            android:layout_marginHorizontal="50dp"
             android:backgroundTint="@color/orange_900"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/txt_check"
             android:textSize="15sp"
-            android:layout_marginHorizontal="40dp"
+            android:layout_marginHorizontal="50dp"
             android:backgroundTint="@color/orange_900"/>
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="100dp"
             android:src="@drawable/logo"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/txt_details"
-                android:layout_marginTop="80dp"/>
+                android:layout_marginTop="50dp"/>
             <ImageView
                 android:layout_width="130dp"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:src="@drawable/misiontic"
-                android:layout_marginStart="130dp"
-                android:layout_marginTop="30dp"/>
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="185dp"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
