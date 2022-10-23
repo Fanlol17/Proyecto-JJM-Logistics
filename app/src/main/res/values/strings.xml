@@ -8,4 +8,21 @@
     <string name="txt_login">Login in</string>
     <string name="txt_check">Check in</string>
     <string name="txt_details">Design in Android Studio</string>
+
+    //Activity Login
+    <string name="txt_username">Username</string>
+    <string name="example_user">user@example.com</string>
+    <string name="txt_password">Password</string>
+    <string name="password">Enter your password</string>
+    <string name="messagepassword">Invalid password</string>
+    <string name="messageusername">Invalid user</string>
+
+    //Activity Sign
+    <string name="title_Registration">REGISTRATION</string>
+    <string name="txt_names">Names</string>
+    <string name="txt_surnames">Surnames</string>
+    <string name="txt_nit">Document number</string>
+    <string name="txt_mail">Mail</string>
+    <string name="txt_telephone">Telephone</string>
+    <string name="txt_sign_in">Sign in</string>
 </resources>

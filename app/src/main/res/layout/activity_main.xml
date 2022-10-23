@@ -67,6 +67,7 @@
             android:textColor="@color/black"/>
         <Button
             android:id="@+id/btnLogin"
+            android:onClick="onLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
@@ -76,6 +77,8 @@
             android:layout_marginHorizontal="40dp"
             android:backgroundTint="@color/orange_900"/>
         <Button
+            android:id="@+id/btnCheck"
+            android:onClick="onCheck"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/txt_check"

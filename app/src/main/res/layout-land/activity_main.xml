@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -64,6 +65,7 @@
             android:textColor="@color/black"/>
         <Button
             android:id="@+id/btnLogin"
+            android:onClick="onLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -73,6 +75,8 @@
             android:layout_marginHorizontal="50dp"
             android:backgroundTint="@color/orange_900"/>
         <Button
+            android:id="@+id/btnCheck"
+            android:onClick="onCheck"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/txt_check"

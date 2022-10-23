@@ -8,4 +8,21 @@
     <string name="txt_login">Iniciar sesion</string>
     <string name="txt_check">Registrarse</string>
     <string name="txt_details">Diseñado en Android Studio</string>
+
+    //Activity Login
+    <string name="txt_username">Nombre de Usuario</string>
+    <string name="example_user">usuario@ejemplo.com</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="password">Digite su contraseña</string>
+    <string name="messagepassword">Contraseña invalida</string>
+    <string name="messageusername">Usuario invalido</string>
+
+    //Activity Sign
+    <string name="title_Registration">REGISTRO</string>
+    <string name="txt_names">Nombres</string>
+    <string name="txt_surnames">Apellidos</string>
+    <string name="txt_nit">Numero de documento</string>
+    <string name="txt_mail">Correo</string>
+    <string name="txt_telephone">Telefono</string>
+    <string name="txt_sign_in">Registrarse</string>
 </resources>
