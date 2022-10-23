@@ -16,8 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp">
+            android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -35,9 +34,10 @@
                 android:textColor="@color/orange_900"
                 android:layout_marginStart="15dp"/>
         </LinearLayout>
+
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="300dp"
             android:src="@drawable/imginicio"/>
     </LinearLayout>
     <LinearLayout
@@ -66,7 +66,7 @@
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="15dp"
             android:text="@string/txt_login"
             android:textColor="@color/white"
             android:textSize="15sp"
@@ -84,22 +84,6 @@
             android:layout_height="100dp"
             android:src="@drawable/logo"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/txt_details"
-                android:layout_marginTop="50dp"/>
-            <ImageView
-                android:layout_width="130dp"
-                android:layout_height="50dp"
-                android:src="@drawable/misiontic"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="185dp"/>
-        </LinearLayout>
+            android:layout_marginTop="15dp"/>
     </LinearLayout>
 </LinearLayout>

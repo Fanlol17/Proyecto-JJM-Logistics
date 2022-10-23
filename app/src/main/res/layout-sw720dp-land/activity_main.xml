@@ -41,27 +41,8 @@
 
         <ImageView
             android:layout_width="845dp"
-            android:layout_height="533dp"
+            android:layout_height="572dp"
             android:src="@drawable/imginicio" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="match_parent"
-                android:src="@drawable/misiontic" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="85dp"
-                android:gravity="end"
-                android:text="@string/txt_details"
-                android:textSize="30sp" />
-        </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/txt_welcome"
-            android:textSize="70sp"
+            android:textSize="50sp"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:gravity="center_horizontal"
@@ -81,8 +62,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txt_enter"
-            android:textSize="60sp"
-            android:layout_marginTop="100dp"
+            android:textSize="40sp"
+            android:layout_marginTop="70dp"
             android:layout_marginStart="40dp"
             android:textColor="@color/black"/>
         <Button
@@ -92,14 +73,14 @@
             android:layout_marginTop="60dp"
             android:text="@string/txt_login"
             android:textColor="@color/white"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:layout_marginHorizontal="40dp"
             android:backgroundTint="@color/orange_900"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/txt_check"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:layout_marginHorizontal="40dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/orange_900"/>
